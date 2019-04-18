@@ -2,15 +2,14 @@ $FilePath = "C:\Users\User\Documents\PowerShell\SAM data dump\cmdb_applications_
 $UniversalSerialNumber = 'SAMDataDumpDeviceSerial'
 $UniversalDeviceName = 'SAMDataDumpDeviceName'
 $Uri = 'https://webframe-fs.freshcmdb.com/itil/probes/add_config_items.json'
-$RegistrationKey = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwb3J0YWxfdXJsIjoiaHR0cHM6Ly93ZWJmcmFtZS1mcy5mcmVzaGNtZGIuY29tIn0.YCVxgv98gJDc8J_pm9fZk8uoepcRXI0Z9RiE5KxPx5o'
-$AccessKey = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzY3fQ.hE6IT0V4_pZLQr55S8bBGDDi5XxVZo4RQuoB-FyZGuw'
+$RegistrationKey = ''
+$AccessKey = ''
 
-$user = 'BIOoKgtmkF5Ya9znYZ'
-$pass = 'X'
+$user = ''
+$pass = ''
 
 $pair = "$($user):$($pass)"
 $encodedCreds = [System.Convert]::ToBase64String([System.Text.Encoding]::ASCII.GetBytes($pair))
-#$encodedCreds = bUZjYXMyc2NPb0tQRDZhMml2UjpY
 
 $basicAuthValue = "Basic $encodedCreds"
 
